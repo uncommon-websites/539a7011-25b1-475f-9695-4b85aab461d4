@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+	--font-sans: "Inter", sans-serif;
+	
 	/* Colors */
 	--color-gray-50: oklch(0.985 0.001 106.423);
 	--color-gray-100: oklch(0.97 0.001 106.424);
