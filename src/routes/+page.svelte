@@ -11,7 +11,7 @@
 
 <Header />
 
-<main class="bg-white overflow-hidden">
+<main class="bg-black overflow-hidden">
   <Hero />
   <Logos />
   <ValueProp />

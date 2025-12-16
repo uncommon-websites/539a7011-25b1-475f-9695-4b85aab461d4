@@ -1,4 +1,4 @@
-<footer class="bg-[#111] text-white pt-32 pb-12 overflow-hidden relative">
+<footer class="bg-black text-white pt-32 pb-12 overflow-hidden relative border-t border-gray-900">
   <!-- CTA Section -->
   <div class="max-w-7xl mx-auto px-6 mb-32 relative z-10">
     <div class="flex flex-col items-center text-center">

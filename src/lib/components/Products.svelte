@@ -6,63 +6,63 @@
   <!-- Multi-Chain Support Section -->
   <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div>
-      <h3 class="text-4xl font-medium mb-6">Multi-Chain Support</h3>
-      <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        <strong class="text-black">Your stablecoins, any chain.</strong> Convert USDC, USDT, and DAI from Ethereum, Polygon, Solana, and more. One platform, unlimited flexibility.
+      <h3 class="text-4xl font-medium mb-6 text-white">Multi-Chain Support</h3>
+      <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+        <strong class="text-white">Your stablecoins, any chain.</strong> Convert USDC, USDT, and DAI from Ethereum, Polygon, Solana, and more. One platform, unlimited flexibility.
       </p>
       <div class="flex flex-col gap-2">
-        <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
+        <a href="#" class="group inline-flex items-center text-white font-medium hover:opacity-70 transition-opacity">
           View supported chains 
           <span class="ml-1 group-hover:translate-x-1 transition-transform">→</span>
         </a>
-        <a href="#" class="text-sm text-gray-400 hover:text-black transition-colors">API documentation</a>
+        <a href="#" class="text-sm text-gray-600 hover:text-white transition-colors">API documentation</a>
       </div>
     </div>
-    <div class="bg-gray-50 rounded-3xl p-12 flex items-center justify-center min-h-[400px]">
+    <div class="bg-gray-950 rounded-3xl p-12 flex items-center justify-center min-h-[400px]">
       <!-- Chain Visualization -->
       <div class="relative w-full max-w-md">
         <div class="grid grid-cols-3 gap-4">
           <!-- Ethereum -->
-          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
-            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
-              <div class="w-6 h-6 rounded-full bg-blue-600"></div>
+          <div class="flex flex-col items-center gap-2 p-4 bg-gray-900 rounded-xl border border-gray-800">
+            <div class="w-12 h-12 rounded-full bg-blue-900/30 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-blue-500"></div>
             </div>
-            <span class="text-xs font-medium text-gray-700">Ethereum</span>
+            <span class="text-xs font-medium text-gray-300">Ethereum</span>
           </div>
           <!-- Polygon -->
-          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
-            <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
-              <div class="w-6 h-6 rounded-full bg-purple-600"></div>
+          <div class="flex flex-col items-center gap-2 p-4 bg-gray-900 rounded-xl border border-gray-800">
+            <div class="w-12 h-12 rounded-full bg-purple-900/30 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-purple-500"></div>
             </div>
-            <span class="text-xs font-medium text-gray-700">Polygon</span>
+            <span class="text-xs font-medium text-gray-300">Polygon</span>
           </div>
           <!-- Solana -->
-          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
-            <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
-              <div class="w-6 h-6 rounded-full bg-green-600"></div>
+          <div class="flex flex-col items-center gap-2 p-4 bg-gray-900 rounded-xl border border-gray-800">
+            <div class="w-12 h-12 rounded-full bg-green-900/30 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-green-500"></div>
             </div>
-            <span class="text-xs font-medium text-gray-700">Solana</span>
+            <span class="text-xs font-medium text-gray-300">Solana</span>
           </div>
           <!-- Arbitrum -->
-          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
-            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+          <div class="flex flex-col items-center gap-2 p-4 bg-gray-900 rounded-xl border border-gray-800">
+            <div class="w-12 h-12 rounded-full bg-blue-900/30 flex items-center justify-center">
               <div class="w-6 h-6 rounded-full bg-blue-400"></div>
             </div>
-            <span class="text-xs font-medium text-gray-700">Arbitrum</span>
+            <span class="text-xs font-medium text-gray-300">Arbitrum</span>
           </div>
           <!-- Optimism -->
-          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
-            <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-              <div class="w-6 h-6 rounded-full bg-red-600"></div>
-            </div>
-            <span class="text-xs font-medium text-gray-700">Optimism</span>
-          </div>
-          <!-- Avalanche -->
-          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
-            <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
+          <div class="flex flex-col items-center gap-2 p-4 bg-gray-900 rounded-xl border border-gray-800">
+            <div class="w-12 h-12 rounded-full bg-red-900/30 flex items-center justify-center">
               <div class="w-6 h-6 rounded-full bg-red-500"></div>
             </div>
-            <span class="text-xs font-medium text-gray-700">Avalanche</span>
+            <span class="text-xs font-medium text-gray-300">Optimism</span>
+          </div>
+          <!-- Avalanche -->
+          <div class="flex flex-col items-center gap-2 p-4 bg-gray-900 rounded-xl border border-gray-800">
+            <div class="w-12 h-12 rounded-full bg-red-900/30 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-red-400"></div>
+            </div>
+            <span class="text-xs font-medium text-gray-300">Avalanche</span>
           </div>
         </div>
       </div>
@@ -72,19 +72,19 @@
   <!-- Global Payment Rails Section -->
   <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div>
-      <h3 class="text-4xl font-medium mb-6">Global Payment Rails</h3>
-      <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        <strong class="text-black">Cash out anywhere.</strong> Access local banking systems in 150+ countries. Send to bank accounts, mobile wallets, or cash pickup locations—all from your stablecoins.
+      <h3 class="text-4xl font-medium mb-6 text-white">Global Payment Rails</h3>
+      <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+        <strong class="text-white">Cash out anywhere.</strong> Access local banking systems in 150+ countries. Send to bank accounts, mobile wallets, or cash pickup locations—all from your stablecoins.
       </p>
       <div class="flex flex-col gap-2">
-        <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
+        <a href="#" class="group inline-flex items-center text-white font-medium hover:opacity-70 transition-opacity">
           See all countries 
           <span class="ml-1 group-hover:translate-x-1 transition-transform">→</span>
         </a>
-        <a href="#" class="text-sm text-gray-400 hover:text-black transition-colors">Payment methods</a>
+        <a href="#" class="text-sm text-gray-600 hover:text-white transition-colors">Payment methods</a>
       </div>
     </div>
-    <div class="bg-gray-50 rounded-3xl overflow-hidden min-h-[400px] relative p-8">
+    <div class="bg-gray-950 rounded-3xl overflow-hidden min-h-[400px] relative p-8">
       <!-- World Map Visualization (simplified) -->
       <div class="absolute inset-0 flex items-center justify-center opacity-20">
         <svg viewBox="0 0 400 200" class="w-full h-full">
@@ -99,24 +99,24 @@
         </svg>
       </div>
       <div class="relative z-10 space-y-3">
-        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
-          <span class="text-sm font-medium">🇺🇸 United States</span>
+        <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 flex items-center justify-between">
+          <span class="text-sm font-medium text-white">🇺🇸 United States</span>
           <span class="text-xs text-gray-500">ACH, Wire</span>
         </div>
-        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
-          <span class="text-sm font-medium">🇪🇺 Europe</span>
+        <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 flex items-center justify-between">
+          <span class="text-sm font-medium text-white">🇪🇺 Europe</span>
           <span class="text-xs text-gray-500">SEPA</span>
         </div>
-        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
-          <span class="text-sm font-medium">🇬🇧 United Kingdom</span>
+        <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 flex items-center justify-between">
+          <span class="text-sm font-medium text-white">🇬🇧 United Kingdom</span>
           <span class="text-xs text-gray-500">Faster Payments</span>
         </div>
-        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
-          <span class="text-sm font-medium">🇮🇳 India</span>
+        <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 flex items-center justify-between">
+          <span class="text-sm font-medium text-white">🇮🇳 India</span>
           <span class="text-xs text-gray-500">UPI, IMPS</span>
         </div>
-        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
-          <span class="text-sm font-medium">🇧🇷 Brazil</span>
+        <div class="bg-gray-900 p-4 rounded-xl border border-gray-800 flex items-center justify-between">
+          <span class="text-sm font-medium text-white">🇧🇷 Brazil</span>
           <span class="text-xs text-gray-500">PIX</span>
         </div>
       </div>
@@ -126,19 +126,19 @@
   <!-- Instant Conversion Section -->
   <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div>
-      <h3 class="text-4xl font-medium mb-6">Instant Conversion</h3>
-      <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        <strong class="text-black">No more waiting.</strong> Convert and spend your stablecoins in seconds, not days. Real-time exchange rates, transparent fees, and instant settlement to your bank account or card.
+      <h3 class="text-4xl font-medium mb-6 text-white">Instant Conversion</h3>
+      <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+        <strong class="text-white">No more waiting.</strong> Convert and spend your stablecoins in seconds, not days. Real-time exchange rates, transparent fees, and instant settlement to your bank account or card.
       </p>
       <div class="flex flex-col gap-2">
-        <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
+        <a href="#" class="group inline-flex items-center text-white font-medium hover:opacity-70 transition-opacity">
           See how it works 
           <span class="ml-1 group-hover:translate-x-1 transition-transform">→</span>
         </a>
-        <a href="#" class="text-sm text-gray-400 hover:text-black transition-colors">Fee calculator</a>
+        <a href="#" class="text-sm text-gray-600 hover:text-white transition-colors">Fee calculator</a>
       </div>
     </div>
-    <div class="bg-black rounded-3xl p-12 flex items-center justify-center min-h-[400px]">
+    <div class="bg-gray-950 rounded-3xl p-12 flex items-center justify-center min-h-[400px] border border-gray-900">
       <!-- Phone Mockup -->
       <div class="relative w-64 h-[500px] bg-gray-900 rounded-[3rem] border-8 border-gray-800 shadow-2xl overflow-hidden">
         <!-- Screen Content -->
