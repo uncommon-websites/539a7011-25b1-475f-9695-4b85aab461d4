@@ -3,126 +3,176 @@
 </script>
 
 <div class="space-y-32 pb-32">
-  <!-- Grid Section -->
+  <!-- Multi-Chain Support Section -->
   <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div>
-      <h3 class="text-4xl font-medium mb-6">Grid</h3>
+      <h3 class="text-4xl font-medium mb-6">Multi-Chain Support</h3>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        <strong class="text-black">Commands for money.</strong> One API/SDK to send, receive, and settle value globally—fiat, stablecoins, or bitcoin. Always real-time, always low cost.
+        <strong class="text-black">Your stablecoins, any chain.</strong> Convert USDC, USDT, and DAI from Ethereum, Polygon, Solana, and more. One platform, unlimited flexibility.
       </p>
       <div class="flex flex-col gap-2">
         <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
-          Learn more 
+          View supported chains 
           <span class="ml-1 group-hover:translate-x-1 transition-transform">→</span>
         </a>
-        <a href="#" class="text-sm text-gray-400 hover:text-black transition-colors">View docs</a>
+        <a href="#" class="text-sm text-gray-400 hover:text-black transition-colors">API documentation</a>
       </div>
     </div>
     <div class="bg-gray-50 rounded-3xl p-12 flex items-center justify-center min-h-[400px]">
-      <!-- Grid Visualization -->
+      <!-- Chain Visualization -->
       <div class="relative w-full max-w-md">
-        <div class="flex justify-between items-center">
-          <!-- Central Hub -->
-          <div class="w-16 h-16 bg-black rounded-lg flex items-center justify-center relative z-10">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><path d="M3 3h7v7H3V3zm11 0h7v7h-7V3zm0 11h7v7h-7v-7zM3 14h7v7H3v-7z"/></svg>
+        <div class="grid grid-cols-3 gap-4">
+          <!-- Ethereum -->
+          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
+            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-blue-600"></div>
+            </div>
+            <span class="text-xs font-medium text-gray-700">Ethereum</span>
           </div>
-          
-          <!-- Endpoints -->
-          <div class="flex flex-col gap-3">
-            {#each ['Send', 'Receive', 'Convert', 'Hold', 'Ramp', 'Program', 'Identity'] as item, i}
-              <div class="flex items-center gap-4">
-                <div class="w-24 h-[1px] bg-gradient-to-r from-black/20 to-transparent transform rotate-180 origin-left"></div>
-                <div class="flex items-center gap-2">
-                  <div class="w-3 h-3 rounded-full" style="background-color: hsl({i * 50}, 70%, 50%)"></div>
-                  <span class="text-xs font-medium text-gray-600">{item}</span>
-                </div>
-              </div>
-            {/each}
+          <!-- Polygon -->
+          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
+            <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-purple-600"></div>
+            </div>
+            <span class="text-xs font-medium text-gray-700">Polygon</span>
+          </div>
+          <!-- Solana -->
+          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
+            <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-green-600"></div>
+            </div>
+            <span class="text-xs font-medium text-gray-700">Solana</span>
+          </div>
+          <!-- Arbitrum -->
+          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
+            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-blue-400"></div>
+            </div>
+            <span class="text-xs font-medium text-gray-700">Arbitrum</span>
+          </div>
+          <!-- Optimism -->
+          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
+            <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-red-600"></div>
+            </div>
+            <span class="text-xs font-medium text-gray-700">Optimism</span>
+          </div>
+          <!-- Avalanche -->
+          <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl shadow-sm">
+            <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
+              <div class="w-6 h-6 rounded-full bg-red-500"></div>
+            </div>
+            <span class="text-xs font-medium text-gray-700">Avalanche</span>
           </div>
         </div>
-        <!-- Connecting lines (simplified) -->
-        <svg class="absolute inset-0 w-full h-full pointer-events-none" style="z-index: 0;">
-          <defs>
-            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="#000" stop-opacity="0.1" />
-              <stop offset="100%" stop-color="#000" stop-opacity="0" />
-            </linearGradient>
-          </defs>
-          <!-- Curved lines would go here, but using straight CSS lines above for simplicity -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Payment Rails Section -->
+  <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+    <div>
+      <h3 class="text-4xl font-medium mb-6">Global Payment Rails</h3>
+      <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+        <strong class="text-black">Cash out anywhere.</strong> Access local banking systems in 150+ countries. Send to bank accounts, mobile wallets, or cash pickup locations—all from your stablecoins.
+      </p>
+      <div class="flex flex-col gap-2">
+        <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
+          See all countries 
+          <span class="ml-1 group-hover:translate-x-1 transition-transform">→</span>
+        </a>
+        <a href="#" class="text-sm text-gray-400 hover:text-black transition-colors">Payment methods</a>
+      </div>
+    </div>
+    <div class="bg-gray-50 rounded-3xl overflow-hidden min-h-[400px] relative p-8">
+      <!-- World Map Visualization (simplified) -->
+      <div class="absolute inset-0 flex items-center justify-center opacity-20">
+        <svg viewBox="0 0 400 200" class="w-full h-full">
+          <!-- Simplified world map dots -->
+          <circle cx="80" cy="60" r="4" fill="currentColor" class="text-primary-500"/>
+          <circle cx="120" cy="80" r="4" fill="currentColor" class="text-primary-500"/>
+          <circle cx="200" cy="50" r="4" fill="currentColor" class="text-primary-500"/>
+          <circle cx="220" cy="90" r="4" fill="currentColor" class="text-primary-500"/>
+          <circle cx="280" cy="70" r="4" fill="currentColor" class="text-primary-500"/>
+          <circle cx="300" cy="120" r="4" fill="currentColor" class="text-primary-500"/>
+          <circle cx="180" cy="140" r="4" fill="currentColor" class="text-primary-500"/>
         </svg>
       </div>
+      <div class="relative z-10 space-y-3">
+        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
+          <span class="text-sm font-medium">🇺🇸 United States</span>
+          <span class="text-xs text-gray-500">ACH, Wire</span>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
+          <span class="text-sm font-medium">🇪🇺 Europe</span>
+          <span class="text-xs text-gray-500">SEPA</span>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
+          <span class="text-sm font-medium">🇬🇧 United Kingdom</span>
+          <span class="text-xs text-gray-500">Faster Payments</span>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
+          <span class="text-sm font-medium">🇮🇳 India</span>
+          <span class="text-xs text-gray-500">UPI, IMPS</span>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow-sm flex items-center justify-between">
+          <span class="text-sm font-medium">🇧🇷 Brazil</span>
+          <span class="text-xs text-gray-500">PIX</span>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Connect Section -->
+  <!-- Instant Conversion Section -->
   <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
     <div>
-      <h3 class="text-4xl font-medium mb-6">Connect</h3>
+      <h3 class="text-4xl font-medium mb-6">Instant Conversion</h3>
       <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        <strong class="text-black">Enterprise-grade Bitcoin.</strong> Lightspark handles node management, key management, liquidity, channel balancing, and routing—so your team can focus on product development and growth.
+        <strong class="text-black">No more waiting.</strong> Convert and spend your stablecoins in seconds, not days. Real-time exchange rates, transparent fees, and instant settlement to your bank account or card.
       </p>
       <div class="flex flex-col gap-2">
         <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
-          Learn more 
+          See how it works 
           <span class="ml-1 group-hover:translate-x-1 transition-transform">→</span>
         </a>
-        <a href="#" class="text-sm text-gray-400 hover:text-black transition-colors">View docs</a>
-      </div>
-    </div>
-    <div class="bg-[#E8F5E9] rounded-3xl overflow-hidden min-h-[400px] relative">
-      <div class="absolute inset-0 p-8 font-mono text-xs leading-none text-[#4CAF50] opacity-50 break-all overflow-hidden select-none">
-        {Array(2000).fill(0).map(() => Math.random().toString(36).substring(2, 3)).join('')}
-      </div>
-      <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#E8F5E9]"></div>
-    </div>
-  </section>
-
-  <!-- Spark Section -->
-  <section class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-    <div>
-      <h3 class="text-4xl font-medium mb-6">Spark</h3>
-      <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-        <strong class="text-black">A powerful Bitcoin Layer 2.</strong> Move bitcoin and bitcoin-native assets (including stablecoins) instantly, at near-zero cost, while staying fully connected to Bitcoin's infrastructure.
-      </p>
-      <div class="flex flex-col gap-2">
-        <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
-          Learn more 
-          <span class="ml-1 group-hover:translate-x-1 transition-transform">→</span>
-        </a>
-        <a href="#" class="text-sm text-gray-400 hover:text-black transition-colors">View docs</a>
+        <a href="#" class="text-sm text-gray-400 hover:text-black transition-colors">Fee calculator</a>
       </div>
     </div>
     <div class="bg-black rounded-3xl p-12 flex items-center justify-center min-h-[400px]">
       <!-- Phone Mockup -->
       <div class="relative w-64 h-[500px] bg-gray-900 rounded-[3rem] border-8 border-gray-800 shadow-2xl overflow-hidden">
         <!-- Screen Content -->
-        <div class="absolute inset-0 bg-black p-4 text-white">
+        <div class="absolute inset-0 bg-gradient-to-br from-gray-900 to-black p-4 text-white">
           <div class="flex justify-between items-center mb-6 pt-2">
-            <span class="text-xs font-medium">Wallet</span>
-            <div class="w-6 h-6 rounded-full bg-gray-700"></div>
+            <span class="text-xs font-medium">Stables</span>
+            <div class="w-6 h-6 rounded-full bg-primary-500"></div>
           </div>
           <div class="mb-8">
-            <div class="text-2xl font-bold">$12,450.00</div>
-            <div class="text-xs text-green-400">+2.4% today</div>
+            <div class="text-sm text-gray-400 mb-1">Available Balance</div>
+            <div class="text-3xl font-bold">$8,450.00</div>
+            <div class="text-xs text-primary-400">in stablecoins</div>
           </div>
-          <div class="space-y-3">
-             <div class="bg-gray-800/50 p-3 rounded-xl flex items-center gap-3">
-               <div class="w-8 h-8 rounded-full bg-orange-500"></div>
+          <div class="space-y-3 mb-6">
+             <div class="bg-gray-800/50 backdrop-blur-sm p-3 rounded-xl flex items-center gap-3 border border-gray-700">
+               <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-xs font-bold">$</div>
                <div class="flex-1">
-                 <div class="text-xs font-medium">Bitcoin</div>
-                 <div class="text-[10px] text-gray-400">0.45 BTC</div>
+                 <div class="text-xs font-medium">USDC</div>
+                 <div class="text-[10px] text-gray-400">5,200 USDC</div>
                </div>
-               <div class="text-xs">$12,300</div>
+               <div class="text-xs">$5,200</div>
              </div>
-             <div class="bg-gray-800/50 p-3 rounded-xl flex items-center gap-3">
-               <div class="w-8 h-8 rounded-full bg-blue-500"></div>
+             <div class="bg-gray-800/50 backdrop-blur-sm p-3 rounded-xl flex items-center gap-3 border border-gray-700">
+               <div class="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-xs font-bold">₮</div>
                <div class="flex-1">
-                 <div class="text-xs font-medium">USD Coin</div>
-                 <div class="text-[10px] text-gray-400">150 USDC</div>
+                 <div class="text-xs font-medium">USDT</div>
+                 <div class="text-[10px] text-gray-400">3,250 USDT</div>
                </div>
-               <div class="text-xs">$150.00</div>
+               <div class="text-xs">$3,250</div>
              </div>
           </div>
+          <button class="w-full bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 rounded-xl transition-colors">
+            Convert to USD
+          </button>
         </div>
       </div>
     </div>

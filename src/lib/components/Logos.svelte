@@ -1,31 +1,31 @@
 <section class="py-12 border-b border-gray-100">
   <div class="max-w-7xl mx-auto px-6">
-    <div class="flex flex-wrap justify-center md:justify-between items-center gap-8 md:gap-12 opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
-      <!-- Bitso -->
-      <span class="text-xl font-bold flex items-center gap-1"><span class="text-2xl">b</span> Bitso</span>
+    <p class="text-center text-sm text-gray-500 mb-8 uppercase tracking-wider">Trusted by crypto natives worldwide</p>
+    <div class="flex flex-wrap justify-center md:justify-between items-center gap-8 md:gap-12 opacity-60 hover:opacity-100 transition-all duration-500">
+      <!-- MetaMask -->
+      <span class="text-xl font-bold flex items-center gap-2">
+        <div class="w-6 h-6 bg-orange-500 rounded-lg"></div> MetaMask
+      </span>
       
-      <!-- BlockBee -->
-      <span class="text-xl font-bold flex items-center gap-1">
-        <div class="w-4 h-4 bg-black rotate-45"></div> BlockBee
+      <!-- Phantom -->
+      <span class="text-xl font-bold flex items-center gap-2">
+        <div class="w-6 h-6 bg-purple-600 rounded-lg"></div> Phantom
       </span>
 
-      <!-- SoFi -->
-      <span class="text-xl font-bold tracking-tighter">SoFi</span>
+      <!-- Trust Wallet -->
+      <span class="text-xl font-bold text-blue-600">Trust Wallet</span>
 
-      <!-- Xapo Bank -->
-      <span class="text-lg font-semibold tracking-widest uppercase">XAPO BANK</span>
+      <!-- Ledger -->
+      <span class="text-lg font-semibold tracking-wider uppercase">LEDGER</span>
 
-      <!-- Revolut -->
-      <span class="text-xl font-bold">Revolut</span>
+      <!-- Binance -->
+      <span class="text-xl font-bold text-yellow-500">Binance</span>
 
-      <!-- Coinbase -->
-      <span class="text-xl font-bold">coinbase</span>
+      <!-- Kraken -->
+      <span class="text-xl font-bold">Kraken</span>
 
-      <!-- nu -->
-      <span class="text-2xl font-bold italic text-black">nu</span>
-
-      <!-- coins.ph -->
-      <span class="text-xl font-medium text-black">coins.ph</span>
+      <!-- Uniswap -->
+      <span class="text-xl font-bold text-pink-500">Uniswap</span>
     </div>
   </div>
 </section>

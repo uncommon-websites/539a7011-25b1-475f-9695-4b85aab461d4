@@ -1,21 +1,21 @@
 <script>
-  let activeTab = 'Cross-border';
-  const tabs = ['Payouts', 'Rewards', 'Cross-border', 'Ramps', 'FX', 'Payroll', 'Billing', 'Debit Cards', 'Treasury', 'Node management'];
+  let activeTab = 'USDC';
+  const tabs = ['USDC', 'USDT', 'DAI', 'Multi-chain'];
 </script>
 
 <section class="pt-32 pb-20 px-6 max-w-7xl mx-auto">
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
     <div>
       <h1 class="text-5xl md:text-6xl font-medium tracking-tight text-black leading-[1.1] mb-8">
-        Products and APIs <br /> for moving money
+        Turn stablecoins into <br /> spendable currency
       </h1>
     </div>
     <div class="flex flex-col justify-end items-start lg:pl-12">
       <p class="text-xl text-gray-600 mb-6 max-w-md leading-relaxed">
-        Simple developer tools to send value instantly anywhere in the world on an open network.
+        Access your crypto wealth globally. Convert stablecoins to local currency instantly with multi-chain support and zero banking fees.
       </p>
       <a href="#" class="group inline-flex items-center text-black font-medium hover:opacity-70 transition-opacity">
-        Explore Grid 
+        Get Started 
         <span class="ml-1 group-hover:translate-x-1 transition-transform">→</span>
       </a>
     </div>
@@ -39,51 +39,59 @@
     </div>
 
     <!-- Content Area -->
-    <div class="relative h-[500px] bg-[#C19A6B] overflow-hidden group">
-      <!-- Background Image Placeholder (Desert) -->
-      <img 
-        src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=2560&auto=format&fit=crop" 
-        alt="Desert landscape" 
-        class="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
-      />
+    <div class="relative h-[500px] bg-gradient-to-br from-primary-500 to-primary-700 overflow-hidden group">
+      <!-- Background Pattern -->
+      <div class="absolute inset-0 opacity-10">
+        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+      </div>
       
       <!-- Floating UI Card -->
-      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 text-white shadow-2xl">
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 text-white shadow-2xl">
         <div class="flex justify-between items-center mb-6">
-          <span class="text-xs font-medium text-white/80">Earning 3.0% on every purchase</span>
+          <span class="text-xs font-medium text-white/80">Convert & Spend</span>
+          <span class="text-xs font-medium text-white/60">Instant</span>
         </div>
         
-        <!-- Transaction 1 -->
-        <div class="flex items-center gap-3 mb-4">
-          <div class="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center text-white shrink-0">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.5-8c0-1.71-1.39-3.1-3.1-3.1h-4V7H7v2h2.5v8H7v2h2.4v2h2.5v-2h1.5c1.71 0 3.1-1.39 3.1-3.1 0-1.21-.69-2.26-1.7-2.75.99-.49 1.7-1.54 1.7-2.75z"/></svg>
+        <!-- Conversion Display -->
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 mb-4">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-2">
+              <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-bold">
+                $
+              </div>
+              <span class="text-sm font-medium">USDC</span>
+            </div>
+            <span class="text-lg font-bold">500.00</span>
           </div>
-          <div class="flex-1 min-w-0">
-            <div class="flex justify-between items-baseline">
-              <h3 class="text-sm font-medium truncate">BTC Cashback</h3>
-              <span class="text-sm font-medium">+ 0.00004</span>
+          <div class="flex justify-center my-2">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <div class="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white text-xs font-bold">
+                $
+              </div>
+              <span class="text-sm font-medium">USD</span>
             </div>
-            <div class="flex justify-between items-baseline">
-              <p class="text-xs text-white/60">Just now</p>
-              <p class="text-xs text-white/60">~ $4.84</p>
-            </div>
+            <span class="text-lg font-bold">499.50</span>
           </div>
         </div>
 
-        <!-- Transaction 2 -->
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-gray-900 shrink-0">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+        <!-- Transaction Details -->
+        <div class="space-y-2 text-xs">
+          <div class="flex justify-between text-white/60">
+            <span>Network Fee</span>
+            <span class="text-white">$0.50</span>
           </div>
-          <div class="flex-1 min-w-0">
-            <div class="flex justify-between items-baseline">
-              <h3 class="text-sm font-medium truncate">Coffee Kings</h3>
-              <span class="text-sm font-medium">$4.92</span>
-            </div>
-            <div class="flex justify-between items-baseline">
-              <p class="text-xs text-white/60">1h ago</p>
-              <div class="px-1.5 py-0.5 rounded bg-white/20 text-[10px] font-medium">3%</div>
-            </div>
+          <div class="flex justify-between text-white/60">
+            <span>Processing Time</span>
+            <span class="text-white">~2 seconds</span>
+          </div>
+          <div class="flex justify-between text-white/60">
+            <span>Chain</span>
+            <span class="text-white">Ethereum</span>
           </div>
         </div>
       </div>
@@ -92,18 +100,22 @@
     <!-- Code Block -->
     <div class="bg-gray-50 p-6 border-t border-gray-200 overflow-x-auto">
       <pre class="font-mono text-xs leading-relaxed text-gray-600">
-<span class="text-gray-400 select-none">1</span>  <span class="text-gray-400"># Convert USD -> BTC and push to a spark wallet in one request</span>
+<span class="text-gray-400 select-none">1</span>  <span class="text-gray-400"># Convert USDC to local currency in one API call</span>
 <span class="text-gray-400 select-none">2</span>
-<span class="text-gray-400 select-none">3</span>  <span class="text-purple-600">curl</span> <span class="text-blue-600">-X POST</span> <span class="text-green-600">'https://api.lightspark.com/grid/2025-10-13/quotes'</span> \
-<span class="text-gray-400 select-none">4</span>    <span class="text-blue-600">-H</span> <span class="text-green-600">'Authorization: Basic <base64-encoded-credentials>'</span> \
+<span class="text-gray-400 select-none">3</span>  <span class="text-purple-600">curl</span> <span class="text-blue-600">-X POST</span> <span class="text-green-600">'https://api.stables.money/v1/convert'</span> \
+<span class="text-gray-400 select-none">4</span>    <span class="text-blue-600">-H</span> <span class="text-green-600">'Authorization: Bearer YOUR_API_KEY'</span> \
 <span class="text-gray-400 select-none">5</span>    <span class="text-blue-600">-H</span> <span class="text-green-600">'Content-Type: application/json'</span> \
 <span class="text-gray-400 select-none">6</span>    <span class="text-blue-600">-d</span> '&#123;
-<span class="text-gray-400 select-none">7</span>      <span class="text-blue-800">"source"</span>: &#123;
-<span class="text-gray-400 select-none">8</span>        <span class="text-blue-800">"accountId"</span>: <span class="text-green-600">"InternalAccount:e85dcbd6-dced-4ec4-b756-3c3a9ea3d965"</span>
-<span class="text-gray-400 select-none">9</span>      &#125;,
-<span class="text-gray-400 select-none">10</span>     <span class="text-blue-800">"destination"</span>: &#123;
-<span class="text-gray-400 select-none">11</span>       <span class="text-blue-800">"externalAccountDetails"</span>: &#123;
-<span class="text-gray-400 select-none">12</span>         <span class="text-blue-800">"customerId"</span>: <span class="text-green-600">"Customer:019542f5-b3e7-1d02-0000-000000000001"</span>,</pre>
+<span class="text-gray-400 select-none">7</span>      <span class="text-blue-800">"from"</span>: &#123;
+<span class="text-gray-400 select-none">8</span>        <span class="text-blue-800">"currency"</span>: <span class="text-green-600">"USDC"</span>,
+<span class="text-gray-400 select-none">9</span>        <span class="text-blue-800">"amount"</span>: <span class="text-green-600">"500"</span>,
+<span class="text-gray-400 select-none">10</span>       <span class="text-blue-800">"chain"</span>: <span class="text-green-600">"ethereum"</span>
+<span class="text-gray-400 select-none">11</span>     &#125;,
+<span class="text-gray-400 select-none">12</span>     <span class="text-blue-800">"to"</span>: &#123;
+<span class="text-gray-400 select-none">13</span>       <span class="text-blue-800">"currency"</span>: <span class="text-green-600">"USD"</span>,
+<span class="text-gray-400 select-none">14</span>       <span class="text-blue-800">"destination"</span>: <span class="text-green-600">"bank_account_id"</span>
+<span class="text-gray-400 select-none">15</span>     &#125;
+<span class="text-gray-400 select-none">16</span>   &#125;'</pre>
     </div>
   </div>
 </section>
